@@ -21,13 +21,13 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         // Initialize MapmyIndia SDK keys
-//        MapmyIndiaAccountManager.getInstance().restAPIKey = "854631380194cc21cbee316a04fcbe52"
-//        MapmyIndiaAccountManager.getInstance().mapSDKKey = "854631380194cc21cbee316a04fcbe52"
-//        MapmyIndiaAccountManager.getInstance().atlasClientId =
-//            "96dHZVzsAut9YlYXrycwtlTe7WEgF9j4c_5V7x2a_2mgj2QTMAfAICK860fet60WUFmqWKIlhY2GUX8MRd47cA=="
-//        MapmyIndiaAccountManager.getInstance().atlasClientSecret =
-//            "lrFxI-iSEg9_YQMjuLDSi1avR_m1Fw0NoOd-LMVCSNiyAxFMoYXdQ1XhX0DaPnYY7WrrB5e19dRNpqVSMXj9NUeIABCx6wVI"
-//        MapmyIndia.getInstance(applicationContext)
+        MapmyIndiaAccountManager.getInstance().restAPIKey = "854631380194cc21cbee316a04fcbe52"
+        MapmyIndiaAccountManager.getInstance().mapSDKKey = "854631380194cc21cbee316a04fcbe52"
+        MapmyIndiaAccountManager.getInstance().atlasClientId =
+            "96dHZVzsAut9YlYXrycwtlTe7WEgF9j4c_5V7x2a_2mgj2QTMAfAICK860fet60WUFmqWKIlhY2GUX8MRd47cA=="
+        MapmyIndiaAccountManager.getInstance().atlasClientSecret =
+            "lrFxI-iSEg9_YQMjuLDSi1avR_m1Fw0NoOd-LMVCSNiyAxFMoYXdQ1XhX0DaPnYY7WrrB5e19dRNpqVSMXj9NUeIABCx6wVI"
+        MapmyIndia.getInstance(applicationContext)
 
 
 //        enableEdgeToEdge()
